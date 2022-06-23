@@ -1,3 +1,8 @@
+"""
+Created on Thu Jun 22 21:35:05 2022
+
+@author: mens1s
+"""
 import numpy as np
 
 # it helps calculation of matrix
