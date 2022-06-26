@@ -47,9 +47,9 @@ axes[1].set_title("sub-2")
 axes[1].set_ylabel("sub-2 y")
 axes[1].set_xlabel("sub-2 x")
 
-# random resim
+# random pic
 plt.figure()
 img = np.random.random((50,50))
-plt.imshow(img, cmap = "gray" ) # gray => 0.5 0 siyah 1 beyaz 
+plt.imshow(img, cmap = "gray" ) # gray => 0.5 0 black 1 white 
 plt.axis("off")
 plt.show()
