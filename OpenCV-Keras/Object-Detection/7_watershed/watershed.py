@@ -69,7 +69,7 @@ plt.figure(), plt.imshow(marker, cmap="gray"), plt.axis("off")
 marker = cv2.watershed(coin, marker)
 plt.figure(), plt.imshow(marker, cmap="gray"), plt.axis("off")
 
-# counter
+# counterz
 contours , hierarchy = cv2.findContours(marker.copy(), cv2.RETR_CCOMP, cv2.CHAIN_APPROX_SIMPLE)
 
 for i in range(len(contours)):
